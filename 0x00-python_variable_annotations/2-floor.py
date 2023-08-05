@@ -2,9 +2,7 @@
 """ This module contains a type-annotated function floor """
 
 
-import math
-
 def floor(n: float) -> int:
-""" This module contains a type-annotated function floor """
+    """ floors a number and returns the result """
 
-    return math.floor(n)
+    return int(n)
